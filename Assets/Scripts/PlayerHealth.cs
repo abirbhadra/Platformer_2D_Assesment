@@ -10,11 +10,11 @@ public class PlayerHealth : MonoBehaviour
 
     public void ReduceHealth()
     {
-        health -= 5;
+        health -= 5*Time.deltaTime;
         Debug.Log(health);
-        healthBar.fillAmount -= 0.2f;
+        healthBar.fillAmount -= 0.2f * Time.deltaTime;
 
-        if (health == 0)
+        if (health <= 0)
         {
             playerDead = true;
             

@@ -229,6 +229,33 @@ MonoBehaviour:
   health: 20
   healthBar: {fileID: 1825275243}
   playerDead: 0
+--- !u!50 &297651226
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297651208}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,6 +1652,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8524291286452267611, guid: de36883ddfe0e6649aa09bb43ce10531, type: 3}
       insertIndex: -1
       addedObject: {fileID: 297651218}
+    - targetCorrespondingSourceObject: {fileID: 8524291286452267611, guid: de36883ddfe0e6649aa09bb43ce10531, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 297651226}
   m_SourcePrefab: {fileID: 100100000, guid: de36883ddfe0e6649aa09bb43ce10531, type: 3}
 --- !u!1001 &3772646725996341665
 PrefabInstance:
